@@ -22,6 +22,7 @@ Explanation: The array represents the integer 4321.
  * Return an array of size *returnSize.
  * Note: The returned array must be malloced, assume caller calls free().
  */
+
 int* plusOne(int* digits, int digitsSize, int* returnSize) {
         int i = digitsSize -1;
         while(i>=0&&(++digits[i]==10))
